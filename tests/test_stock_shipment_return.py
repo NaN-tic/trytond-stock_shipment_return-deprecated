@@ -7,24 +7,16 @@ import os
 import sys
 import trytond.tests.test_tryton
 import unittest
-DIR = os.path.abspath(os.path.normpath(os.path.join(__file__,
-    '..', '..', '..', '..', '..', 'trytond')))
-if os.path.isdir(DIR):
-    sys.path.insert(0, os.path.dirname(DIR))
 
 
 class StockShipmentReturnTestCase(unittest.TestCase):
-    '''
-    Test Stock Shipment Return module.
-    '''
+    'Test Stock Shipment Return module'
 
     def setUp(self):
         trytond.tests.test_tryton.install_module('stock_shipment_return')
 
     def test0006depends(self):
-        '''
-        Test depends.
-        '''
+        'Test depends'
         test_depends()
 
 
