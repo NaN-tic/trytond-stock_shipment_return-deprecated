@@ -2,10 +2,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "model:ir.action,name:create_shipment_out_return"
-msgid "Create Return Shipment"
-msgstr "Crea albarà de devolució"
-
 msgctxt "error:stock.shipment.out.return.create:"
 msgid "The shipment with code \"%s\" is not yet sent."
 msgstr "L'albarà amb codi \"%s\" encara no s'ha enviat."
@@ -13,3 +9,7 @@ msgstr "L'albarà amb codi \"%s\" encara no s'ha enviat."
 msgctxt "error:stock.shipment.out.return.create:"
 msgid "You can not create return shipment"
 msgstr "No podeu crear un albarà de devolució."
+
+msgctxt "model:ir.action,name:create_shipment_out_return"
+msgid "Create Return Shipment"
+msgstr "Crea albarà de devolució"
