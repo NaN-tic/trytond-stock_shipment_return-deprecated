@@ -6,10 +6,9 @@ from trytond.pool import PoolMeta
 __all__ = ['Move']
 
 
-class Move:
-    __metaclass__ = PoolMeta
+class Move(metaclass=PoolMeta):
     __name__ = 'stock.move'
-    
+
     @classmethod
     def _get_origin(cls):
         models = super(Move, cls)._get_origin()

@@ -7,6 +7,7 @@ from trytond.transaction import Transaction
 from trytond.wizard import Wizard, StateAction
 
 __all__ = ['CreateShipmentOutReturn']
+
 MOVE_EXCLUDE_FIELDS = ['origin', 'shipment', 'invoice_lines']
 
 class CreateShipmentOutReturn(Wizard):
